@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Firefox Relay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+</head>
+
+<body class="bg-slate-200">
+    <main class="container mx-auto max-w-md my-24 bg-slate-50 p-8">
+        <section class="mb-16">
+            <div class="mb-8">
+            <h1 class="mb- text-xl mb-2"># Login Form</h1>
+            <p class="italic">Icon should be visible in the email input</p>
+        </div>
+        <form class="relative max-w-sm border flex flex-col gap-8 p-8 bg-white shadow rounded">
+            <input class="border block w-full px-6 py-3 " type="email" name="username" maxlength="255" id="username" placeholder="Email" style="padding-right: 40px;">
+            <input class="border block w-full px-6 py-3 " type="password" placeholder="password" >
+            <button class="border bg-slate-900 text-slate-50  text-center py-4 rounded" type="submit">Submit</button>
+        </form>
+        </section>
+        <div class="mb-8">
+            <h1 class="mb- text-xl mb-2"># No Icon Login Form</h1>
+            <p class="italic">Icon should NOT be visible in the email input. Right-click on field to use context menu.</p>
+        </div>
+        <form class="relative max-w-sm border flex flex-col gap-8 p-8 bg-white shadow rounded">
+            <input placeholder="Name" class="border block w-full px-6 py-3 " type="text" name="" id="">
+            <input class="border block w-full px-6 py-3 " type="password" placeholder="password" >
+            <button class="border bg-slate-900 text-slate-50  text-center py-4 rounded" type="submit">Submit</button>
+        </form>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
